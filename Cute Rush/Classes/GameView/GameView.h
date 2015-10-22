@@ -15,6 +15,8 @@
 #import <Accounts/Accounts.h>
 #import "Settings.h"
 
+@import GoogleMobileAds;
+
 
 @interface GameView : UIViewController <GKGameCenterControllerDelegate, AVAudioPlayerDelegate>
 {
@@ -72,5 +74,7 @@
 // Audio Player
 @property (strong, nonatomic) AVAudioPlayer *player;
 
+//ADMOB PROPERTIES !!!!!!!
+@property (weak, nonatomic) IBOutlet GADBannerView *bannerView;
 
 @end
