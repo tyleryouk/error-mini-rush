@@ -77,4 +77,9 @@
 //ADMOB PROPERTIES !!!!!!!
 @property (weak, nonatomic) IBOutlet GADBannerView *bannerView;
 
+//ADMOB IPAD PROPERTIES!!!!!!!
+@property (weak, nonatomic) IBOutlet GADBannerView *iPadBannerView;
+
+
+
 @end
